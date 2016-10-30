@@ -1,0 +1,33 @@
+= Introduction =
+
+Very naive implementation of the TCP/IP stack:
+
+Sniffs
+Mangles
+ARP-Spoofing attack
+Data injection on arbitrary connections
+TCP/IP session hijacking
+
+= Installation
+
+$ sudo apt-get install autoconf libtool
+$ git clone https://github.com/snrhcn/libPortal
+$ cd libPortal/libPortal
+$ ./autogen.sh 
+$ make
+$ sudo make install
+$ sudo ldconfig
+
+= Information =
+
+Supported protocols are:
+
+Ethernet, SLL, ARP, DHCP, DHCP options, IP, 
+IP options, IPv6, ICMP, ICMPv6, ICMP extensions, ICMPv6 extensions, TCP, 
+TCP options, UDP and DNS
+
+IEEE802.11 coming soon!
+
+= License =
+
+License是个什么鬼？
